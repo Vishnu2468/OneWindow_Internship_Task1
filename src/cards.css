@@ -1,0 +1,270 @@
+.country-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px;
+    background-color: #fff;
+    width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+  
+.card-title h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    text-align: left;
+ }
+  
+.card-subtitle {
+    font-size: 1rem;
+    color: #5e6262;
+    text-align: left;
+}
+  
+.card-match {
+    display: flex;
+    align-items: center;
+}
+  
+.match-btn {
+    background-color: #f0f0f5;
+    border: none;
+    color: #2ecc71;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  
+.favorite-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: #e74c3c;
+    cursor: pointer;
+}  
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+  
+.card-university {
+    flex: 2;
+    text-align: left;
+}
+  
+.card-info {
+    flex: 2;
+    text-align: right;
+}
+  
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+  
+.card-footer p {
+    font-weight: bold;
+    color: #3498db;
+}
+  
+.card-options {
+    display: flex;
+    align-items: center;
+}
+  
+.featured {
+    color: #f39c12;
+    margin-right: 10px;
+}
+.favorite-btn {
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+  
+.favorite-btn:hover {
+    transform: scale(1.2);
+}
+
+.country-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px rgb(0, 38, 255);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 20px;
+}
+  
+.country-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 8px 8px 16px rgb(255, 4, 4);
+}
+  
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f7f7f7;
+    transition: background-color 0.3s ease;
+}
+  
+.country-card:hover .card-header {
+    background-color: #f0f0f0;
+}
+  
+.favorite-btn {
+    font-size: 2rem;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    transition: color 0.3s ease;
+}
+  
+.favorite-btn:hover {
+    color: red;
+}
+  
+.card-body {
+    padding: 20px;
+}
+  
+.card-footer {
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+  
+.card-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.featured a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+  
+.featured a:hover {
+    color: #0056b3;
+}
+.card-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    transition: background-color 0.3s ease;
+}
+
+.card-header .card-title {
+    display: flex;
+    align-items: center;
+}
+
+.country-flag {
+    width: 50px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.card-title h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin: 0;
+}
+.spaced-element{
+    margin-right: 50px;
+    padding: 10px
+}
+
+
+
+
+/* Header Styles */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    z-index: 1000;
+}
+
+.header-left .logo {
+    font-size: 50px;
+    font-weight: bold;
+    color: #2a2a75;
+    font-family: 'Arial', sans-serif;
+    margin-left: 60px;
+}
+
+.header-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.header-right {
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+}
+
+.header-right .login-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-right: 60px;
+}
+
+.header-right .login-btn:hover {
+    background-color: #0056b3;
+}
+
+.country-card {
+    margin-top: 80px;
+}
+
+.header-left .logo-img {
+    height: 40px;
+    width: auto;
+}
+.header-nav .ai-logo{
+    height: 16px;
+    width: 25px;
+}
+.blue-text {
+    color: blue;
+    font-weight: bold;
+}
